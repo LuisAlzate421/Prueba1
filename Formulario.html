@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/css.css">
     <title>Formulario de Registro</title>
 </head>
 <body>
 
-    <form>
+    <form action="Pagina1.html" method="post">
         <label for="user">
             Enter User*
         </label>
@@ -36,11 +37,24 @@
         <label>
             Femenino
         </label>
-        <input type="radio" value="Femenino">
+        <input type="radio" name="sexo" value="Femenino">
         <label>
             Masculino
         </label>
-        <input type="radio" value="Masculino">
+        <input type="radio" name="sexo" value="Masculino">
+        <br><br>
+        <label for="search">
+            Search
+        </label>
+        <input type="search" placeholder="Search">
+        <br><br>
+        <label>
+            Choose a maximun house price 
+        </label>
+        <input type="range" name="choose" min="20000" max="50000" step="100" value="50000">
+        <br><br>
+        <input type="submit" value="Send" class="btn1">
+        <input type="reset" value="Clear" class="btn2">        
     </form>
     
 </body>

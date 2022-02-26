@@ -24,3 +24,33 @@ h1{
     font-size: 100px;
     text-align: left;
 }
+
+.btn1{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    font-family: cursive;
+}
+
+.btn1:hover{
+    background-color: blue;
+    color: white;
+}
+
+.btn2{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    font-family: cursive;
+}
+
+.btn2:hover{
+    background-color: red;
+    color: white;
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
